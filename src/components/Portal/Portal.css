@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.portal{
+    cursor: pointer;
+}
+
+.terminate{
+    color: red;
+    background: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    border: none;
+}
+
+@media(max-width: 668px){
+    .content{
+        flex-direction: column;
+    }
+    .content img{
+        margin-bottom: 10px;
+    }
+    .portal{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

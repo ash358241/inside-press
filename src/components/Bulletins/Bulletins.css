@@ -1,0 +1,12 @@
+.bulletins{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    grid-gap: 30px;
+}
+
+@media(max-width: 668px){
+    .bulletins{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

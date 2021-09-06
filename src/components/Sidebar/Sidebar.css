@@ -1,0 +1,62 @@
+.sidebar{
+    padding: 20px;
+    background-color: AliceBlue;
+    height: 100vh;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgrey;
+    position: sticky;
+    top: 0;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.intro img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.view{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.toggle button:first-child{
+    transition: all 0.5s ease;
+}
+.toggle button:last-child{
+    transition: all 0.5s ease;
+}
+
+.toggle button:first-child:hover{
+    background-color: #7FFFD4;
+}
+.toggle button:last-child:hover{
+    background-color: #7FFFD4;
+}
+
+.feedback{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.feedback h5{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: Aquamarine;
+    border-radius: 10px;
+}

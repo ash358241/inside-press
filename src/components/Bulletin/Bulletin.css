@@ -1,0 +1,40 @@
+.card{
+    width: 300px;
+    min-height: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px lightgrey;  
+    margin: 0 auto;
+}
+
+.delete{
+    position: absolute;
+    top: 0;
+    right: -20%;
+}
+
+.bulletin{
+    width: 80%;
+    position: relative;
+}
+
+.summary, .title{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.date{
+    width: 85%;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+@media(max-width: 668px){
+    .delete{
+        right: -10px;
+    }
+}
